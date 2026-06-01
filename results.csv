@@ -1,0 +1,12 @@
+goos: linux
+goarch: amd64
+pkg: uk.ac.bris.cs/gameoflife
+cpu: Intel(R) Core(TM) i7-14700
+,results.out,
+,sec/op,CI
+Gol/512x512x1000-1_threads-28,8.068668588000001,1%
+Gol/512x512x1000-2_threads-28,4.1920838245,12%
+Gol/512x512x1000-4_threads-28,2.2978175710000004,1%
+Gol/512x512x1000-8_threads-28,1.4953075625000003,13%
+Gol/512x512x1000-16_threads-28,1.0079983540000002,4%
+geomean,2.592671817612039,
